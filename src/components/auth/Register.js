@@ -21,15 +21,6 @@ class Register extends Component {
 
   onSubmit = e => {
     e.preventDefault();
-
-    const { firebase, notifyUser } = this.props;
-    const { email, password } = this.state;
-
-    //register with fire base
-  };
-
-  onSubmit = e => {
-    e.preventDefault();
     const { firebase, notifyUser } = this.props;
     const { email, password } = this.state;
 
